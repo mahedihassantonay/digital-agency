@@ -54,7 +54,7 @@
 }
 
 .banner-title{
-    ;
+    
     font-size: 80px;
 }
 
@@ -161,4 +161,66 @@
 .service-logo{
     width: 50%;
 
+}
+/* apoointment section style */
+.appointment-section{
+    max-width: 70%;
+    height: 170px;
+    background-color:#DD1918 ;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    color: #D5D2D2;
+    margin-top: -80px;
+    margin-bottom: 100px;
+}
+
+.appointment-left{
+    display: flex;
+    width: 30%;
+    
+    border-right: 2px solid gray ;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+   
+    
+    
+  
+}
+
+.appointment-right{
+    width: 40%;
+    
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: auto;
+}
+
+.image-container{
+    max-width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    
+}
+
+.image-box{
+    
+    width: 300px;
+    height: 380px;
+    box-shadow: 8px 8px 15px gray;
+    border-radius: 10px;
+    
+
+}
+
+.image-box h2,p{
+    padding: 10px;
+}
+.image-box img{
+    width: 100%;
+    border-radius: 10px;
 }
